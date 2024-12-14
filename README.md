@@ -44,3 +44,5 @@ yarn build
 ```
 yarn deploy
 ```
+
+- Go to your github repo settings > pages > Change source branch to `gh-pages` folder `/root`
