@@ -29,8 +29,18 @@ yarn add gh-pages
 "deploy": "gh-pages -d dist"
 ```
 
+- Make changes to `vite.config.js`. Add your `/repositoryName/`
+
+```
+base: "/ThemeSwitcher/",
+```
+
 - Run command
 
 ```
-npm run build
+yarn build
+```
+
+```
+yarn deploy
 ```
